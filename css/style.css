@@ -7,8 +7,13 @@ a{
     color: #f79502;
     
 }
-a:hover{
-    color: #adad90;
+
+p{
+    font-size: 18px;
+    color: #fff;
+}
+a:hover, a:hover p{
+    color: #adad90 !important;
 }
 
 .container {
@@ -29,9 +34,143 @@ a:hover{
     text-transform: uppercase;
 }
 .menu img{
-    margin:0px 20px -100px ;
+    margin:0px 20px -105px ;
 }
 .menu img:hover{
     opacity: 0;
+
+}
+/* Slice */
+
+.slice {
+    margin-top: 30px;
+
+    position: relative;
+}
+.slice .left{
+    width: 350px;
+    position: absolute;
+    left: 75px;
+    bottom: 10px;
+    color: rgb(206, 189, 189);
+}
+
+.slice .left h2{ 
+    width: 100px;
+    font-size: 60px;
+    color: #EDEFFE;
+
+}
+.btn{
+    padding: 15px 55px;
+    background-color: #758dba;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #adad90;
+}
+
+.slice .right {
+    position: absolute;
+    bottom: 62px;
+    right: 25px;
+}
+
+.hidden {
+    background-color: rgb(0,0,0,0);
+    color: #fff;
+    margin-right: 20px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    
+
+}
+.hidden:hover {
+    color : #adad90; 
+
+}
+
+/* Banner */
+.banner {
+    margin-top: 20px;
+}
+#bannerLeft {
+
+    width: 680px;
+    height: 500px;
+    margin-right: 20px;
+    float: left;
+    background-image: url('../images/shoppe\ vuong.jpg');
+    background-size: cover;
+    position: relative;
+
+
+}
+
+#bannerRight {
+    width: 500px;
+    height: 700px;
+    float: left;
+    background-image: url('../images/shopee1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.textL{
+    position: absolute;
+    left: 30px;
+    bottom: 379px;
+    font-size: 50px;
+    color: #fff;
+}
+.viewl {
+    position: absolute;
+    left: 237px;
+    bottom: 336px;
+    font-size: 24px;
+    color: #fff;
+    /*text-transform: uppercase;*/
+    
+}
+.textR{
+    position: absolute;
+    left: 30px;
+    bottom: 272px;
+    font-size: 50px;
+    color: #fff;
+}
+.viewr {
+    position: absolute;
+    left: 128px;
+    bottom: 207px;
+    font-size: 24px;
+    color: #fff;
+    
+}
+
+/* CONTENT   */
+
+#title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #000;
+}
+
+.sp {
+    width: 285px;
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+
+}
+
+.sp:first-child{
+    margin-left: 0;
 
 }
